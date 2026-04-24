@@ -4,14 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { Prueba } from './Prueba.jsx'
 import { CardUser } from './CardUser.jsx'
+import { Pruebita } from './Pruebita.jsx'
+import { ThemeProvider } from './ThemeProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    {/* <App /> */}
-    {/* ctrl + k + c */}
-    {/* <Prueba/> */}
-    <CardUser/>
-    {/* <p></p>
-    <img src="" alt="" /> */}
-  </StrictMode>,
+    <>
+    <ThemeProvider>
+        <Pruebita/>
+        <CardUser/>
+    </ThemeProvider>
+    </>
 )
