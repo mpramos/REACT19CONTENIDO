@@ -6,12 +6,14 @@ import { Prueba } from './Prueba.jsx'
 import { CardUser } from './CardUser.jsx'
 import { Pruebita } from './Pruebita.jsx'
 import { ThemeProvider } from './ThemeProvider.jsx'
+import FakeStore from './FakeStore.jsx'
 
 createRoot(document.getElementById('root')).render(
     <>
     <ThemeProvider>
-        <Pruebita/>
-        <CardUser/>
+        {/* <Pruebita/>
+        <CardUser/> */}
+        <FakeStore/>
     </ThemeProvider>
     </>
 )

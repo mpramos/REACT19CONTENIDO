@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
-
+import './CardUser.css'
 export const CardUser=()=>{
     const {darkMode, toogleTheme} = useContext(ThemeContext);
     const users = [
