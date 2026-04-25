@@ -27,7 +27,7 @@ const FakeStore = () => {
                 style={{backgroundColor : darkMode ? 'black':'white'}}
             >
                 {products.map(producto=>(
-                   <CardProduct key={producto.id} props={producto}/> 
+                    <CardProduct key={producto.id} props={producto} />
                 ))}
             </div>
         </>

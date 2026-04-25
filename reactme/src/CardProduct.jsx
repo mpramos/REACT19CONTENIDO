@@ -1,14 +1,12 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './CardUser.css'
-import { ThemeContext } from './ThemeContext';
 
 const CardProduct = ({ props }) => {
-    const {darkMode} = useContext(ThemeContext);
     return (
         <div
             key={props.id}
             className='border p-4 rounded-xl shadow'
-            style={{ backgroundColor: darkMode ? 'black' : 'white' }}
+            // style={{ backgroundColor: darkMode ? 'black' : 'white' }}
         >
             <img
                 src={props.image}
