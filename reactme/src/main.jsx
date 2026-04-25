@@ -7,6 +7,7 @@ import { CardUser } from './CardUser.jsx'
 import { Pruebita } from './Pruebita.jsx'
 import { ThemeProvider } from './ThemeProvider.jsx'
 import FakeStore from './FakeStore.jsx'
+import Search from './Search.jsx'
 
 createRoot(document.getElementById('root')).render(
     <>
